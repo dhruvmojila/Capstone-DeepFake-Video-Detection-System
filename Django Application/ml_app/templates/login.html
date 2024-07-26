@@ -1,0 +1,73 @@
+{% extends 'base.html' %} {%load static%} {%block content%} {% if message %}
+<script>
+  alert("{{ message }}");
+</script>
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign In</title>
+    <style>
+      .flex-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      body {
+        color: white;
+      }
+      input {
+        margin-top: 12px;
+
+        padding: 6px 12px;
+        width: 25rem;
+        border-radius: 5px;
+      }
+      input[type="submit"] {
+        background-color: rgba(7, 179, 185, 0.753);
+        color: white;
+        width: 150px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        background-color: rgba(7, 179, 185, 0.753);
+        color: white;
+        width: 150px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body class="bg">
+    <form action="/upload_video/" method="GET" class="flex-box">
+      {% csrf_token %}
+      <br />
+      <!-- Enter Your Email: -->
+      <label for="Email">Email</label>
+      <input type="email" id="Email" name="email" /><br /><br />
+      <!-- Enter Your Password: -->
+      <label for="Password">Password</label>
+      <input type="password" id="Password" name="pass" /><br /><br />
+      <input type="submit" value="SignIn" /><br /><br />
+
+      <button
+        type="button"
+        onclick="location.href=href=`{%url 'ml_app:signup'%}`"
+      >
+        SignUp
+      </button>
+    </form>
+  </body>
+</html>
+{%endblock%}
