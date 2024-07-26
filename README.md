@@ -27,7 +27,7 @@ To develop an advanced detection system using Convolutional Neural Networks (CNN
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bulTb9oB7SE?si=7oneqoCbTWEiBoL5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/bulTb9oB7SE/hqdefault.jpg)](https://www.youtube.com/watch?v=bulTb9oB7SE)
 
 ## Contact
 For any questions or suggestions, feel free to contact me at:
