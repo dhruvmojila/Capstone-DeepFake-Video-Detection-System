@@ -2,7 +2,7 @@
 
 A sophisticated system designed to detect and analyze deepfake videos using advanced machine learning techniques. Perfect for researchers and developers working on video authenticity and security.
 
-![GitHub Repo stars](https://img.shields.io/github/stars/dhruvmojila/Capstone-DeepFake-Video-Detection-System?style=for-the-badge&logoColor=%234fd6d4)
+![GitHub Repo stars](https://img.shields.io/github/stars/dhruvmojila/Capstone-DeepFake-Video-Detection-System?style=for-the-badge&logoColor=%234fd6d4) 
 ![GitHub forks](https://img.shields.io/github/forks/dhruvmojila/Capstone-DeepFake-Video-Detection-System?style=for-the-badge)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/dhruvmojila/Capstone-DeepFake-Video-Detection-System?style=for-the-badge)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/dhruvmojila/Capstone-DeepFake-Video-Detection-System?style=for-the-badge)
